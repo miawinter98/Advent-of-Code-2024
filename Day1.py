@@ -4,7 +4,7 @@ if __name__ == '__main__':
     list_a = []
     list_b = []
 
-    with open("./inputs/day1_1.txt", "r") as input_file:
+    with open("inputs/day1.txt", "r") as input_file:
         for line in input_file:
             data = line.split("   ")
             list_a.append(int(data[0]))
